@@ -1,0 +1,16 @@
+    2  grep -o 'bwor\w*' goodluck.txt
+    3  grep -o '\w*dred\w*' goodluck.txt
+    4  grep -o '\bwor\w*' goodluck.txt
+    5  grep '^Good luck, babe$' goodluck.txt
+    6  grep 'Good luck babe' goodluck.txt
+    7  grep 'Good luck, babe' goodluck.txt
+    8  wc goodluck.txt
+    9  wc -l goodluck.txt
+   10  wc -w goodluck.txt
+   11  wc -l goodluck.txt > Yang-T_a2_counts.txt
+   12  wc -w goodluck.txt > Yang-T_a2_counts.txt
+   13  wc goodluck.txt > Yang-T_a2_counts.txt
+   14  vi Yang-T_a2_counts.txt
+   15  wc -w goodluck.txt >> Yang-T_a2_counts.txt
+   16  wc -l goodluck.txt >> Yang-T_a2_counts.txt
+   17  vi Yang-T_a2_counts.txt

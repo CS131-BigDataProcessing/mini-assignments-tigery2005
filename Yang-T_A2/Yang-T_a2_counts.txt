@@ -1,0 +1,15 @@
+      50     466    2346 goodluck.txt 
+     466 goodluck.txt
+      50 goodluck.txt
+
+1. 'wc goodluck.txt > Yang-T_a2_counts.txt'
+   'wc goodluck.txt' outputs the word, line, and char counts in goodluck.txt
+   '> Yang-T_a2_counts.txt' creates a file and redirects the output to that file, overwriting it
+
+2. 'wc -l goodluck.txt >> Yang-T_a2_counts.txt'
+   'wc -l goodluck.txt' outputs the line count in goodluck.txt
+   '>> Yang-T_a2_counts.txt' redirects the output to the file, appending to it
+
+3. 'wc -w goodluck.txt >> Yang-T_a2_counts.txt'
+   'wc -w goodluck.txt' outputs the word count in goodluck.txt
+   '>> Yang-T_a2_counts.txt' redirects the output to the file, appending to it  
