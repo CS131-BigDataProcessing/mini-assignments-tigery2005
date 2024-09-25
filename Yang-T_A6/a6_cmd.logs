@@ -1,0 +1,16 @@
+  823  $HOME
+  824  ssh tyangfa24@172.20.25.9
+  825  cd CS131_fa24_datafiles
+  826  git pull
+  827  ls
+  828  cd Lec08
+  829  ls
+  830  scp airline_stats.csv tyangfa24@172.20.25.9:/mnt/scratch/FA24_CS131_Jessica/tyangfa24
+  831  ssh tyangfa24@172.20.25.9
+  832  cd mini-assignments-tigery2005
+  833  cd Lec08
+  834  cd Yang-T_A6
+  835  ls
+  836  awk -F, 'NR > 1 {print $4}' airline_stats.csv | sort | uniq  
+  837  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq  
+  838  awk -F, -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv| sort | uniq
