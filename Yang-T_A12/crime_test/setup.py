@@ -3,6 +3,7 @@ setup(
 	name='A12_package', # Package name
 	version='1.0', # Package version
 	packages=find_packages(), # Automatically find modules
+	include_package_data=True,
 
 	install_requires=[
 		'numpy>=2.0.2',  # Specific version of numpy
