@@ -1,5 +1,8 @@
 # Crime Test Package
 
+## Installation
+- **Install the package using the following command in terminal: 'pip install git+https://github.com/CS131-BigDataProcessing/mini-assignments-tigery2005.git#subdirectory=Yang-T_A12/crime_test'
+
 ## Setup:
 - **Unzip the Crime_Data.zip file (GitHub file size limitations)
 
